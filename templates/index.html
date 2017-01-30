@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>Santa Clara University Contact Page</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="">
+      <link href="css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+      <style>
+         .jumbotron {
+         padding: 0;
+         background-color: none; 
+         }
+         @media screen and (min-width: 768px);
+         .container .jumbotron {
+         padding-right: 0; 
+         padding-left: 0;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="wrapper">
+         <div class="container">
+            <header>
+               <div id="logo">
+                  <img src="images/scu.png" class="logo" alt="logo" style="float:left; max-width:10%; height:auto; margin:10px"><br>
+                  <img src="images/logo.png" class="name" alt="name" style="float:left; margin-top:40px; margin-left:20px; max-width:60%; height:auto;">
+               </div>
+               <br>
+            </header>
+            <!-- Close header -->
+            <main>
+               <div class="jumbotron">
+                  <img src="images/uni_img_1.jpg" class="bg_images" alt="logo" style="float:left; max-width:100%; height:auto;">
+               </div>
+               <div class="inner contact">
+                  <!-- Form Area -->
+                  <div class="contact-form col-md-6 col-md-offset-3">
+                     <!-- Form -->
+                     <form id="contact-us" method="post" action="#">
+                        <!-- Left Inputs -->
+                        <div class=".col-md-6 .col-md-offset-3 wow animated slideInLeft" data-wow-delay=".5s">
+                           <!-- Name -->
+                           <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                           <!-- Email -->
+                           <input type="password" name="password" id="password" required="required" class="form" placeholder="Password">
+                
+                        </div>
+                        <!-- End Left Inputs -->
+                     
+                        <!-- Bottom Submit -->
+                        <div class="relative btn btn-lg btn-block">
+                           <!-- Send Button -->
+                           <button type="submit" id="submit" name="submit" class="form-btn semibold">Log in</button> 
+                        </div>
+                        <!-- End Bottom Submit -->
+                     </form>
+                  </div>
+                  <!-- End Contact Form Area -->
+               </div>
+               <!-- End Inner -->
+            </main>
+         </div>
+         <!-- End container -->
+         <br>
+         <footer>
+            <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+            <p>500 El Camino Real, Santa Clara, CA 95053</p>
+            <p>Contact : (408) 554-4000</a>.</p>
+         </footer>
+         <!-- Close footer -->
+      </div>
+      <!-- Close wrapper -->
+   </body>
+</html>
