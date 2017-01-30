@@ -44,7 +44,7 @@ def webprint():
 
 @app.route('/login.html')
 def login():
-        return render_template('login.html')
+        return render_template('login.html',error='invalid credentials')
 @app.route('/blank.html')
 def blank():
         return render_template('blank.html')
